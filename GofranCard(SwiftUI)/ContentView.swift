@@ -10,13 +10,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack{
-            Color(.green)
+            Color(UIColor(red: 0.63, green: 0.53, blue: 0.50, alpha: 1.00))
                 .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             VStack {
-                Image(systemName: "globe")
-                    .imageScale(.large)
-                    .foregroundStyle(.tint)
-                Text("Hello, world!")
+                
+                Text("Gofran AlWaked")
+                    .font(Font.custom("SpicyRice-Regular", size:40))
+                    .bold()
+                    .foregroundColor(Color(red: 0.94, green: 0.92, blue: 0.91))
+                   
             }
             .padding()
         }

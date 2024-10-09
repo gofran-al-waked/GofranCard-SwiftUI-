@@ -11,6 +11,10 @@
 		15A124FD2CB5578B007B898C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A124FC2CB5578B007B898C /* ContentView.swift */; };
 		15A124FF2CB5578E007B898C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15A124FE2CB5578E007B898C /* Assets.xcassets */; };
 		15A125022CB5578E007B898C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15A125012CB5578E007B898C /* Preview Assets.xcassets */; };
+		15A1250D2CB67B77007B898C /* ShadowsIntoLight-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15A1250A2CB67B76007B898C /* ShadowsIntoLight-Regular.ttf */; };
+		15A1250E2CB67B77007B898C /* Caveat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15A1250B2CB67B77007B898C /* Caveat-VariableFont_wght.ttf */; };
+		15A1250F2CB67B77007B898C /* LondrinaSketch-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15A1250C2CB67B77007B898C /* LondrinaSketch-Regular.ttf */; };
+		15A125122CB67BAB007B898C /* SpicyRice-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15A125112CB67BAB007B898C /* SpicyRice-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,11 @@
 		15A124FC2CB5578B007B898C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		15A124FE2CB5578E007B898C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15A125012CB5578E007B898C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		15A1250A2CB67B76007B898C /* ShadowsIntoLight-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ShadowsIntoLight-Regular.ttf"; sourceTree = "<group>"; };
+		15A1250B2CB67B77007B898C /* Caveat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Caveat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		15A1250C2CB67B77007B898C /* LondrinaSketch-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LondrinaSketch-Regular.ttf"; sourceTree = "<group>"; };
+		15A125112CB67BAB007B898C /* SpicyRice-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpicyRice-Regular.ttf"; sourceTree = "<group>"; };
+		15A125132CB67EE9007B898C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +60,11 @@
 		15A124F92CB5578B007B898C /* GofranCard(SwiftUI) */ = {
 			isa = PBXGroup;
 			children = (
+				15A125082CB67B12007B898C /* Fonts */,
 				15A124FA2CB5578B007B898C /* GofranCard_SwiftUI_App.swift */,
 				15A124FC2CB5578B007B898C /* ContentView.swift */,
 				15A124FE2CB5578E007B898C /* Assets.xcassets */,
+				15A125132CB67EE9007B898C /* Info.plist */,
 				15A125002CB5578E007B898C /* Preview Content */,
 			);
 			path = "GofranCard(SwiftUI)";
@@ -65,6 +76,17 @@
 				15A125012CB5578E007B898C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		15A125082CB67B12007B898C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				15A125112CB67BAB007B898C /* SpicyRice-Regular.ttf */,
+				15A1250B2CB67B77007B898C /* Caveat-VariableFont_wght.ttf */,
+				15A1250C2CB67B77007B898C /* LondrinaSketch-Regular.ttf */,
+				15A1250A2CB67B76007B898C /* ShadowsIntoLight-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +147,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15A1250D2CB67B77007B898C /* ShadowsIntoLight-Regular.ttf in Resources */,
 				15A125022CB5578E007B898C /* Preview Assets.xcassets in Resources */,
+				15A1250F2CB67B77007B898C /* LondrinaSketch-Regular.ttf in Resources */,
 				15A124FF2CB5578E007B898C /* Assets.xcassets in Resources */,
+				15A1250E2CB67B77007B898C /* Caveat-VariableFont_wght.ttf in Resources */,
+				15A125122CB67BAB007B898C /* SpicyRice-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +300,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GofranCard(SwiftUI)/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/gofranalwaked/Desktop/Swift Projects/GofranCard(SwiftUI)/GofranCard(SwiftUI)/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +329,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GofranCard(SwiftUI)/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/gofranalwaked/Desktop/Swift Projects/GofranCard(SwiftUI)/GofranCard(SwiftUI)/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
